@@ -1,0 +1,10 @@
+import TemplatePage from "../../../components/TemplatePage";
+
+export default function IndexPage() {
+  return (
+    <div>
+      <p>Prerendered</p>
+      <TemplatePage />
+    </div>
+  );
+}
