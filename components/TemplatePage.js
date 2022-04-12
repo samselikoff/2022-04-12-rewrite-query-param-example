@@ -13,7 +13,7 @@ export default function TemplatePage() {
       params.append("q", "1");
     }
 
-    router.push(url.toString());
+    router.replace(url.toString());
   }
 
   return (

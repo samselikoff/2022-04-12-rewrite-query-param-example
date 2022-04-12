@@ -8,6 +8,5 @@ export function middleware(req) {
   } else {
     url.pathname = `${url.pathname}/skeleton`;
   }
-
   return NextResponse.rewrite(url);
 }
